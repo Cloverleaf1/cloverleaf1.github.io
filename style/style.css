@@ -1,0 +1,151 @@
+html{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+p {
+	justify-content: space-around;
+	text-align: justify;
+	margin-top: 1%;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+
+}
+
+h2{
+	font-family: 'Aaram-Regular';
+	font-size: 250%;
+	color : #F08A11;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 5%;
+}
+
+body{
+	position: relative;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+section{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.img_figure{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.img{
+	width: 100%
+
+}
+
+.entrelacs{
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#title
+{
+	font-family: 'Aaram-Regular';
+	font-size: 650%;
+	text-align: center;
+	color : #F08A11;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.logo{
+	width: 15%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.quote{
+	width: 50%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+/* Disposition du pied de page(footer), avec couleur et épaisseur*/
+footer
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: #F08A11;
+	width: 100%;
+}
+
+/* Propriétés pour centrer le texte des 4 cases du pied de page */
+footer ul
+{
+	padding: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Texte du footer, couleur et taille de police, avec hauteur des lignes pour ajuster au mieux les lignes*/
+footer ul li
+{
+	vertical-align: top;
+	text-align: left;
+	color: #FFFFFF;
+	line-height: 20px;
+	list-style: none;
+}
+
+/* Couleur du texte des lien*/
+footer ul li a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* idem que prècedent*/
+footer a
+{
+	color: #FFFFFF;
+	display: inline-block;
+	position: relative;
+}
+
+/* Changement de couleur du footer après placement avec le curseur*/
+.footer:hover
+{
+	background-color: #FFFFFF;
+	transition: 1s;
+}
+
+/* Changement de couleur du texte*/
+.footer:hover li
+{
+	color: #F08A11;
+}
+
+/* Changement de couleur des lien*/
+.footer:hover a
+{
+	color: #F08A11;
+}
